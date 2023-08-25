@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+  .contenedor{
+
+    margin: 0 auto;
+    max-width: 220vh;
+  }
+
+body {
+  min-height: 100vh;
+  width: 55%;
+  margin-left: 25%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  display: flex;
+  
+ 
+}
+
+img {
+  width: 65%;
+  height: 90%;
+  margin-left: 15%;
+  margin-top: 4%;
+  border-radius: 50%;
+ 
+}
+.Date {
+  font-size: 1, 4em;
+  margin-bottom: 6%;
+}
+
+.left {
+  float: left;
+  height: 49em;
+  width: 33%;
+  background-color: rgb(214, 200, 196);
+  display: grid;
+}
+
+.sidebar {
+  text-align: justify;
+  padding: 8%;
+  margin-bottom: 60%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+}
+
+.table-1 {
+  position: relative;
+  bottom: 105%;
+  margin-right: 2em;
+  margin-left: 2em;
+  background-color: rgb(158, 147, 147);
+}
+.table-2 {
+  position: relative;
+  bottom: 90%;
+  margin-left: 2em;
+  margin-right: 2em;
+  background-color:rgb(158, 147, 147);
+}
+.name {
+  color: rgb(192, 31, 31);
+  display: inline-flex;
+  font-size: 140%;
+  margin-top: 5%;
+  border-radius: 20%;
+  margin-left: 7%;
+}
+h3 {
+  display: inline-flex;
+  margin-top: 2%;
+  font-size: 1, 5em;
+  margin-left: 8%;
+}
+.h {
+  display: inline-flex;
+  margin-top: 8%;
+  margin-bottom: 1%;
+  color: rgb(192, 31, 31);
+  margin-left: 2%;
+}
+.goals {
+  text-align: justify;
+  margin-left: 18em;
+  margin-right: 1em;
+}
+.studies {
+  display: inline-flex;
+  margin-top: 4%;
+  margin-bottom: 1%;
+  color: rgb(192, 31, 31);
+  margin-left: 2%;
+}
+.article {
+  text-align: justify;
+  margin-left: 19em;
+  margin-right: 9em;
+}
+.experience {
+  display: inline-flex;
+  margin-top: 4%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+
+  color: rgb(192, 31, 31);
+}
+.Job {
+  text-align: justify;
+  margin-left: 19em;
+  margin-right: 9em;
+}
+.Box {
+  display: inline-flex;
+  margin-top: 4%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+
+  color: rgb(192, 31, 31);
+}
+.lang {
+  text-align: justify;
+  margin-left: 19em;
+  margin-right: 9em;
+  margin-bottom: 3%;
+}
