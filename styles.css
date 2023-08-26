@@ -3,32 +3,29 @@
   padding: 0;
 }
 
+.contenedor {
+  margin: 0 auto;
+  position: static;
+}
 
-  .contenedor{
-
-    margin: 0 auto;
-    max-width: 220vh;
+@media screen and (max-width: 950vh) {
+  body {
+    min-height: 80vh;
+    width: 55%;
+    margin-left: 25%;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-style: italic;
+    display: flex;
   }
-
-body {
-  min-height: 100vh;
-  width: 55%;
-  margin-left: 25%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-style: italic;
-  display: flex;
-  
- 
 }
 
 img {
-  width: 65%;
-  height: 90%;
-  margin-left: 15%;
+  width: 68%;
+  height: 85%;
+  margin-left: 9%;
   margin-top: 4%;
   border-radius: 50%;
- 
 }
 .Date {
   font-size: 1, 4em;
@@ -37,8 +34,8 @@ img {
 
 .left {
   float: left;
-  height: 49em;
-  width: 33%;
+  height: 55em;
+  width: 37%;
   background-color: rgb(214, 200, 196);
   display: grid;
 }
@@ -56,24 +53,23 @@ a {
 
 .table-1 {
   position: relative;
-  bottom: 105%;
-  margin-right: 2em;
-  margin-left: 2em;
+  bottom: 130%;
+  margin-right: 4em;
+  margin-left: 3%;
   background-color: rgb(158, 147, 147);
 }
 .table-2 {
   position: relative;
   bottom: 90%;
-  margin-left: 2em;
-  margin-right: 2em;
-  background-color:rgb(158, 147, 147);
+  margin-left: 3%;
+  margin-right: 4em;
+  background-color: rgb(158, 147, 147);
 }
 .name {
   color: rgb(192, 31, 31);
   display: inline-flex;
   font-size: 140%;
   margin-top: 5%;
-  border-radius: 20%;
   margin-left: 7%;
 }
 h3 {
@@ -87,11 +83,11 @@ h3 {
   margin-top: 8%;
   margin-bottom: 1%;
   color: rgb(192, 31, 31);
-  margin-left: 2%;
+  margin-left: 5%;
 }
 .goals {
   text-align: justify;
-  margin-left: 18em;
+  margin-left: 20em;
   margin-right: 1em;
 }
 .studies {
@@ -99,37 +95,36 @@ h3 {
   margin-top: 4%;
   margin-bottom: 1%;
   color: rgb(192, 31, 31);
-  margin-left: 2%;
+  margin-left: 5%;
 }
 .article {
   text-align: justify;
-  margin-left: 19em;
+  margin-left: 20em;
   margin-right: 9em;
 }
 .experience {
   display: inline-flex;
   margin-top: 4%;
   margin-bottom: 1%;
-  margin-left: 2%;
+  margin-left: 5%;
 
   color: rgb(192, 31, 31);
 }
 .Job {
   text-align: justify;
-  margin-left: 19em;
+  margin-left: 20em;
   margin-right: 9em;
 }
 .Box {
   display: inline-flex;
   margin-top: 4%;
   margin-bottom: 1%;
-  margin-left: 2%;
-
+  margin-left: 5%;
   color: rgb(192, 31, 31);
 }
 .lang {
   text-align: justify;
-  margin-left: 19em;
+  margin-left: 20em;
   margin-right: 9em;
   margin-bottom: 3%;
 }
