@@ -5,25 +5,27 @@
 
 .contenedor {
   margin: 0 auto;
+  border: 3px solid;
   position: static;
 }
 
-@media screen and (max-width: 950vh) {
+@media screen and (max-width: 200vh) {
   body {
-    min-height: 80vh;
-    width: 55%;
+    min-height: 60vh;
+    width: 48%;
     margin-left: 25%;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     font-style: italic;
     display: flex;
+    
   }
 }
 
 img {
   width: 68%;
   height: 85%;
-  margin-left: 9%;
+  margin-left: 8%;
   margin-top: 4%;
   border-radius: 50%;
 }
@@ -34,10 +36,10 @@ img {
 
 .left {
   float: left;
-  height: 55em;
   width: 37%;
   background-color: rgb(214, 200, 196);
   display: grid;
+ 
 }
 
 .sidebar {
@@ -57,6 +59,7 @@ a {
   margin-right: 4em;
   margin-left: 3%;
   background-color: rgb(158, 147, 147);
+  
 }
 .table-2 {
   position: relative;
@@ -69,25 +72,25 @@ a {
   color: rgb(192, 31, 31);
   display: inline-flex;
   font-size: 140%;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 7%;
 }
 h3 {
   display: inline-flex;
   margin-top: 2%;
   font-size: 1, 5em;
-  margin-left: 8%;
+  margin-left: 10%;
 }
 .h {
   display: inline-flex;
-  margin-top: 8%;
+  margin-top: 7%;
   margin-bottom: 1%;
   color: rgb(192, 31, 31);
   margin-left: 5%;
 }
 .goals {
   text-align: justify;
-  margin-left: 20em;
+  margin-left: 18em;
   margin-right: 1em;
 }
 .studies {
@@ -99,7 +102,7 @@ h3 {
 }
 .article {
   text-align: justify;
-  margin-left: 20em;
+  margin-left: 18em;
   margin-right: 9em;
 }
 .experience {
@@ -112,7 +115,7 @@ h3 {
 }
 .Job {
   text-align: justify;
-  margin-left: 20em;
+  margin-left: 18em;
   margin-right: 9em;
 }
 .Box {
@@ -124,7 +127,7 @@ h3 {
 }
 .lang {
   text-align: justify;
-  margin-left: 20em;
+  margin-left: 18em;
   margin-right: 9em;
   margin-bottom: 3%;
 }
